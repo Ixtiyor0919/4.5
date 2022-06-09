@@ -34,7 +34,7 @@ function cloneAndRender(movie) {
     movieItemElClone.querySelector('[data-element=movie-year]').textContent = `Year: ` + movie.year;
     return movieItemElClone;
 }
-renderMovies(movies, moviesRow);
+// renderMovies(movies, moviesRow);
 
 var todoListEl = document.querySelector('.todo-list');
 todoListEl.addEventListener('change', (evnet) => {
